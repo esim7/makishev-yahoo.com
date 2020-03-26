@@ -1,0 +1,138 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+ul, li 
+{
+    list-style: none;
+}
+
+.header_top
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.head
+{
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 46px;
+}
+.head p
+{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+.header_menu
+    {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        background-color: #161616;
+        height: 44px;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.header_menu li a
+{
+        padding: 0px 20px;
+        line-height: 44px;
+        height: 44px;
+        display: block;
+        transition: .5s;
+        border: 1px solid transparent;
+}
+    
+.header_menu li a:hover
+    {
+        background-color: #ffffff;  
+        color: #161616;
+    }
+
+.about
+{
+    padding-top: 60px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+.about_text h2
+{
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.about_text p
+{
+    font-size: 14px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 100%;
+    height: 900px;
+}
+
+.card_container
+{
+    display: flex;
+    height: 50%;
+    margin-bottom: 50px;
+}
+
+.card
+{
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+
+.card img
+{
+    display: inline-block;
+    margin: 0 auto;
+    height: 290px;
+    width: 100%;
+    margin-bottom: 14px
+    ;
+}
+
+.card h3
+{
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.card p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
